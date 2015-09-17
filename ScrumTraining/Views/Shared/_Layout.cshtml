@@ -7,7 +7,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
+<body style="background-color:rgb(0,204,255)">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -35,7 +35,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - @Html.ActionLink("Contact Us", "Culture", "Home")</p>
+            <p>&copy; @DateTime.Now.Year - @Html.ActionLink("Contact Us", "Contact", "Home")</p>
         </footer>
     </div>
 
