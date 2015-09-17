@@ -35,7 +35,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - @Html.ActionLink("Contact Us", "Culture", "Home")</p>
         </footer>
     </div>
 
